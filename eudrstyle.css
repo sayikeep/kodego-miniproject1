@@ -1,0 +1,250 @@
+* {
+    box-sizing: content-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("azotea.png");
+    object-fit: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #6A040F;
+    padding: 1.5rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header #logo {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+header #auth {
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+section#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    overflow: hidden;
+}
+
+section#hero .hero-text {
+    text-align: justify;
+}
+
+section#hero .hero-text h1 {
+    color: #D62828;
+    text-align: center;
+    font-style: italic;
+    size: 5rem;
+    font-weight: bolder;
+}
+
+section#hero .hero-text p {
+    color: black;
+    size: 1rem;
+    text-align: justify;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-weight: bolder;
+}
+
+section#hero button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    background-color: #FF9F1C;
+    border: 0 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section#hero .hero-img {
+    display: flex;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    size-adjust: 300px;
+}
+
+section#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    overflow: hidden;
+}
+
+section#about .about-text {
+    text-align: justify;
+}
+
+section#about .about-text h3 {
+    text-align: center;
+    color: #D62828;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+section#about .about-text p {
+    color: black;
+    font-weight: bold;
+    size: 1rem;
+    text-align: justify;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+section#services h3 {
+    text-align: center;
+    color: #D62828;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+section#services .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+section#services .row .card {
+    border: 1px solid #fafafa;
+    padding: 1rem;
+}
+
+section#services .row .card img {
+    height: 150px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+section#services .row .card button {
+    background-color: #DC2F02;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    color: #f1f1f1;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+section#contact {
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+section#contact .card {
+    border: 1px solid #f2eeee;
+    border-radius: 2rem;
+    padding: 2rem;
+    background-color: #f1f1f1;
+}
+
+section#contact .card h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #DC2F02;
+}
+
+section#contact .card form {
+    display: flex;
+    flex-direction:column;
+    gap: 0.5rem;
+}
+
+section#signup {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+section#signup img {
+    position: absolute;
+    left: 0;
+    width: auto;
+    z-index: -1;
+}
+
+section#signup .card {
+    border: 1px solid #f2eeee;
+    border-radius: 2rem;
+    padding: 2rem;
+    background-color: #f1f1f1;
+}
+
+section#signup .card h3 {
+    text-align: center;
+}
+
+section#signup .card form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+section#signup .card form input {
+    padding: 1rem;
+    border: 2px solid #f2eeee;
+    border-radius: 5px;
+    margin: 0.5rem 0 ;
+}
+
+section#signup .card form .btns {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+    gap: 1rem ;
+    cursor: pointer;
+}
+
+section#signup .card form button {
+    background-color: #6A040F;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
